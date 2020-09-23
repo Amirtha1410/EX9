@@ -46,9 +46,8 @@ public class exception {
         
         try
         {
-            int c=Integer.parseInt(args[0]);
-            int d=Integer.parseInt(args[1]);
-            System.out.println(c+d);
+            String c="oops class";
+            int a=Integer.parseInt(c);
         }
          catch(Exception e)
         {
